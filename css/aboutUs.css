@@ -1,0 +1,24 @@
+img.profile{
+    border-radius: 20px;
+    display: block;
+    float: left;
+    clear: right;
+    height: 400px;
+    margin: 10px;
+}
+legend{
+    background-color: rgba(235, 24, 24, 0.897);
+    border-radius: 5px;
+    color: white;
+    
+}
+fieldset{
+    margin: 20px;
+    background-color: rgba(245, 245, 245, 0.582);
+    border-radius: 30px;
+    border-style: none;
+}
+img.profile:hover{
+    transform: scale(1.3);
+    transition: 900ms;
+}

@@ -1,0 +1,55 @@
+article{
+    background-color: rgba(245, 245, 245, 0.582);
+    
+}
+img.food{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+h3.foodHeading , p{
+    text-align: center;
+    font-size: smaller;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 350px;
+    border-style: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 10px;
+    flex: 1;
+}
+p.foodDesc{
+    font-size: smaller;
+    padding-bottom: 20px;
+}
+fieldset:hover{
+    transition: 1000ms;
+    background: linear-gradient(to right,red,rgb(226, 141, 141));
+    transform: scale(1.1);
+    box-sizing: border-box;
+    box-shadow: 0 0 20px black;
+}
+form{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    padding-bottom: 20px;
+    justify-content: space-around;
+}
+h1.main{
+    text-align: center;
+    color: rgb(86, 6, 6);
+    font-family:fantasy;
+    text-decoration: underline;
+}
+

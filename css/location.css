@@ -1,0 +1,23 @@
+article{
+    background-color: rgba(245, 245, 245, 0.582);
+}
+img.location{
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+table.tableLocation{
+    border-collapse: collapse;
+    margin: 10px 20px;
+}
+
+article > table.tableLocation > tr >td.address{
+    padding: 0;
+}
+ul.dates{
+    list-style-type: none;
+}
+a.phone{
+    text-decoration: none;
+    color: red;
+}
